@@ -14,10 +14,10 @@ export const SummaryContainer = styled.section`
 `
 
 interface SummaryCardProps {
-  variant: 'green';
+  variant?: 'green';
 }
 
-export const SummeryCard = styled.div<SummaryCardProps>`
+export const SummaryCard = styled.div<SummaryCardProps>`
   background: ${props => props.theme["gray-600"]};
   border-radius: 6px;
   padding: 2rem;
